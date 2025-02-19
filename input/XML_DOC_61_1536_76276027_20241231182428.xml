@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+      <Documento ID="T61F1536">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>61</TipoDTE>
+            <Folio>1536</Folio>
+            <FchEmis>2024-12-16</FchEmis>
+            <FmaPago>2</FmaPago>
+            <FchVenc>2024-12-16</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76276027-4</RUTEmisor>
+            <RznSoc>Sociedad Adaptor Chile SpA</RznSoc>
+            <GiroEmis>Venta articulos electronicos y telecomunicaciones</GiroEmis>
+            <Acteco>523930</Acteco>
+            <Sucursal>1-Casa Matriz</Sucursal>
+            <DirOrigen>Roger de Flor 2907, local 4</DirOrigen>
+            <CmnaOrigen>Las Condes</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+            <CdgVendedor>SCB-Sandra Calvo Bustamante</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>99531960-8</RUTRecep>
+            <RznSocRecep>SCM Minera Lumina Copper Chile</RznSocRecep>
+            <GiroRecep>Exploracion Explotacion en benef. conces</GiroRecep>
+            <Contacto>Fono:26285000</Contacto>
+            <DirRecep>Av. Isidora Goyenechea 2800 of. 2001 piso 20</DirRecep>
+            <CmnaRecep>Las Condes</CmnaRecep>
+            <CiudadRecep>Santiago</CiudadRecep>
+            <DirPostal>Cerro Sombrero 1775 (Tandem)</DirPostal>
+          </Receptor>
+          <Totales>
+            <MntNeto>20677995</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19</TasaIVA>
+            <IVA>3928819</IVA>
+            <MntTotal>24606814</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>	<NroLinDet>1</NroLinDet>	<CdgItem>	<TpoCodigo>INT1</TpoCodigo>	<VlrCodigo>HW-VCONF_000000</VlrCodigo>	</CdgItem>	<NmbItem>Videoconferencia Poly G7500 TouchOne</NmbItem>	<QtyItem>1.0000</QtyItem>	<UnmdItem>Unit</UnmdItem>	<PrcItem>20677994.6</PrcItem>	<MontoItem>20677995</MontoItem>	</Detalle>
+        <Referencia>	<NroLinRef>1</NroLinRef>	<TpoDocRef>33</TpoDocRef>	<FolioRef>12537</FolioRef>	<FchRef>2024-12-11</FchRef>	<CodRef>1</CodRef>	<RazonRef>1: Anula Documento Ref.</RazonRef>	</Referencia>
+        <Referencia>	<NroLinRef>2</NroLinRef>	<TpoDocRef>801</TpoDocRef>	<FolioRef>5600004573</FolioRef>	<FchRef>2024-09-12</FchRef>	<RazonRef>ORDEN DE COMPRA</RazonRef>	</Referencia>
+        <Referencia>	<NroLinRef>3</NroLinRef>	<TpoDocRef>HES</TpoDocRef>	<FolioRef>5000668365</FolioRef>	<FchRef>2024-12-11</FchRef>	</Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76276027-4</RE>
+            <TD>61</TD>
+            <F>1536</F>
+            <FE>2024-12-16</FE>
+            <RR>99531960-8</RR>
+            <RSR>SCM Minera Lumina Copper Chile</RSR>
+            <MNT>24606814</MNT>
+            <IT1>Videoconferencia Poly G7500 TouchOne</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76276027-4</RE>
+                <RS>SOCIEDAD ADAPTOR CHILE SPA</RS>
+                <TD>61</TD>
+                <RNG>
+                  <D>1524</D>
+                  <H>1543</H>
+                </RNG>
+                <FA>2024-11-19</FA>
+                <RSAPK>
+                  <M>qH9ie4gWOpNFrLFpAOvfSJRA1T7tCw502RNc3XBph8bi2KXtkx28EXIG7UMvsNZ4w4f1iZ8NzeP37q0bPn5iLQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">hObD5G+BptmpVyCbAmnpZ0RRuohG+4Jtr+daIlRElwemRQ/63dOnZXGT6GSLA8pu/ugDi2owXgIwqGL4nwkeyg==</FRMA>
+            </CAF>
+            <TSTED>2024-12-16T16:56:44</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">H5EX8gMUymFjuVWL96aY/tETT9+jmc1DPEj5CpCmzsXiAyrGyNsqqsRvnXT/T0z2Pxm7C8W1Lm3G
+2N9vgj967g==</FRMT>
+        </TED>
+        <TmstFirma>2024-12-16T16:56:44</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<Reference URI="#T61F1536">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<DigestValue>4IFg6VQGLa8S62KhhcVK6N++9tw=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>K4h2274u8q/veVCvBr6KitPIK0kg+lVIryw+GJC25hEHYimKqwBXCTPPO/apZ21WG8ZmEQoCg3xq
+1kuYJomIGbjU6Xbcphs8Fe5t2m2ifPCR4QFLI/YziaVu8L6yY9XLpj8wcg2qJKQJxcEv5s3/b6CF
+12BAX232qnUufoSj2I8y3r161mylcteuAEvHzWdOEVlMQytDEc5Vo0on0eN1vSRJMtwZf+O0NhOS
+KbJyA1WsU3gHC9Mv34EFrncSls+C2znNgQfscu1yLUmJbvxQCoQvU2E3Iq96wBgGG5ZecsQSeG8R
+EyiIzBBu4WD0QlZEacC8VbEdWBfFsLagU4sCgA==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>vAdz4gO2cjHpFUOItFR/tbLF/d9i59Mii0+HLBQx6kME0FTszcW+d923OKNFA2Z/LFRikvWDnl14
+1QdmsCQSUztnk2ylyKLqtKrYS4olMr6VHMvfLTK3Gcdqp58nv4wZzC1HkZWGeh7kPvm33il6dWBK
+uxfYWhjwqFkb+0mIpz/hjCmyzFhDBxlHEhaVsHJ6rum9GqP69BsvKAgLtH8Hx0MQedOq/EDGZ1PD
+SlEMG68Rqyfcfr/tUSyO4hNbQ49LAedp7IF8ACThifdSe40mI2+cpo5PJPsVN/U2hSoemXAvog90
+PITxWOFjTFL164ZvjG2HEila8PXsWm9HZkA2sQ==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIGejCCBWKgAwIBAgIDBFuKMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yNDA1MjcxMzI0NTRaFw0yNzA1Mjcx
+MzI0NTRaMIGLMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSYwJAYDVQQD
+Ex1TQU5EUkEgS0FUSUEgQ0FMVk8gQlVTVEFNQU5URTEmMCQGCSqGSIb3DQEJARYXU0FORFJBLkNB
+TFZPQEFEQVBUT1IuQ0wxEjAQBgNVBAUTCTk2Njk5OTYtNDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALwHc+IDtnIx6RVDiLRUf7Wyxf3fYufTIotPhywUMepDBNBU7M3FvnfdtzijRQNm
+fyxUYpL1g55deNUHZrAkElM7Z5Nspcii6rSq2EuKJTK+lRzL3y0ytxnHaqefJ7+MGcwtR5GVhnoe
+5D75t94penVgSrsX2FoY8KhZG/tJiKc/4YwpssxYQwcZRxIWlbByeq7pvRqj+vQbLygIC7R/B8dD
+EHnTqvxAxmdTw0pRDBuvEasn3H6/7VEsjuITW0OPSwHnaeyBfAAk4Yn3UnuNJiNvnKaOTyT7FTf1
+NoUqHplwL6IPdDyE8VjhY0xS9euGb4xthxIpWvD17FpvR2ZANrECAwEAAaOCAsgwggLEMB8GA1Ud
+IwQYMBaAFKr9vcXpN032mU1XjsFxGvnrwwbjMB0GA1UdDgQWBBQWxUHTBML9EoaQwbbujPbAcLYU
+bjALBgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIB
+AQQEAwIFoDCB+gYDVR0gBIHyMIHvMIHsBggrBgEEAbVrAjCB3zAxBggrBgEFBQcCARYlaHR0cHM6
+Ly9hY2c0LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBqQYIKwYBBQUHAgIwgZwwFhYPQWNlcHRh
+LmNvbSBTLkEuMAMCAQIagYFFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEgcHJl
+c2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmli
+dXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAM
+Fgo5NjkxOTA1MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9A
+YWNlcHRhLmNvbTBgBgNVHREEWTBXoBcGCCsGAQQBwQEBoAsWCTk2Njk5OTYtNKAjBggrBgEFBQcI
+A6AXMBUMCTk2Njk5OTYtNAYIKwYBBAHBAQKBF1NBTkRSQS5DQUxWT0BBREFQVE9SLkNMMEcGCCsG
+AQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3Nw
+L0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0
+L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQABlUb/8LAZvyUbcHdeJHjBruNs
+ab+02jsyu1qYe9UgLKjErpmuErER9mGi1NMAXocL64lyU8FHgou9+osNtBLuFHCsMQy7bgDtcaef
+9QrF9ikJ5TPLnmvxW8isj94Ok1mz+l2yIswkV+UA+sxKXDBSTpFB3+pWFYY0Ctc7zFK6M0/DNtYT
+zix8ifTpT7flNDEitMM09LagiyLuOdCJcLARWdIsy/H8FhBv3Dj6QSb6uxfUwKPxaF0ci/pUreEG
+/GExGr9DQRa4AY1/ldNHzdKqxYedmYB+iHJH2AXv361erc7m0X/OPd47/NVS3HYPqaBQCSaHDeoK
+2Mq7gQYLrf44</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE>
