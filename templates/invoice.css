@@ -109,9 +109,6 @@ body {
   text-align: center;
   padding: 5px;
 }
-tr:nth-child(2) {
-    height: 8cm;
-}
 
 #item_table td {
   border-left: 1px solid black;
