@@ -31,7 +31,7 @@ def sii_doc_XMLtoPDF(path):
     # TABLA ITEMS
     df = pd.json_normalize(dte_parsed.items)
     df["Item"] = range(1, len(df) + 1)
-    df["Código"] = 0
+    # df["Codigo"] = 0
     df["Cant"] = df["Cant"].astype(float)
     df["P. Unitario"] = df["rate"].astype(float).astype(int).map('{:,}'.format).str.replace(
         ",",
@@ -40,8 +40,8 @@ def sii_doc_XMLtoPDF(path):
         ",",
         ".")
     df["Dscto"] = 0
-    df = df[["Item", "Código", "Descripcion",  "Cant", "P. Unitario", "Dscto", "Total"]]
-    required_rows = 25  # Change this if needed based on table height
+    df = df[["Item", "Codigo", "Descripcion",  "Cant", "P. Unitario", "Dscto", "Total"]]
+    required_rows = 20  # Change this if needed based on table height
     if len(df) < required_rows:
         empty_rows = required_rows - len(df)
         empty_data = pd.DataFrame([["", "", "", "", "", "", ""]] * empty_rows, columns=df.columns)
