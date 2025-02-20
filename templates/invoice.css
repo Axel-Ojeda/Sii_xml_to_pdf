@@ -21,7 +21,7 @@ body {
 /* Set Fixed Heights */
 .section-1 { height: 4.5cm; }
 .section-2 { height: 2.2cm; font-size: 8pt; padding-bottom: 10px;}
-.section-3 { height: 11.4cm; display:flex;}
+.section-3 { height: 12cm; display:flex;}
 .section-4 { height: 2.5cm; }
 
 
@@ -118,11 +118,11 @@ tr:nth-child(2) {
   padding: 5px;
 }
 
-#item_table td:nth-child(1) { width: 5%; text-align: center; }
-#item_table td:nth-child(2) { width: 14%; text-align: left; }
-#item_table td:nth-child(3) { width: 40%; text-align: left; }
+#item_table td:nth-child(1) { width: 4%; text-align: center; }
+#item_table td:nth-child(2) { width: 19%; text-align: left; }
+#item_table td:nth-child(3) { width: 38%; text-align: left; }
 #item_table td:nth-child(4) { width: 5%; text-align: center; }
-#item_table td:nth-child(5) { width: 12%; text-align: right; }
+#item_table td:nth-child(5) { width: 10%; text-align: right; }
 #item_table td:nth-child(6) { width: 5%; text-align: right; }
 #item_table td:nth-child(7) { width: 10%; text-align: right; }
 
@@ -215,7 +215,7 @@ tr:nth-child(2) {
 
 /* Section 5 - Fixed Height */
 .section-5 {
-    height: 4cm;
+    height: 3cm;
     display: flex;
     padding-bottom: 0.5cm;
     justify-content: center;
@@ -225,6 +225,6 @@ tr:nth-child(2) {
 .section-6 {
     height: 0.5cm;
     display: flex;
-    bottom: 1cm;
+    bottom: 1.6cm;
 }
 
