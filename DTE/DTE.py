@@ -127,11 +127,15 @@ class DTE:
             Description = i.find("{http://www.sii.cl/SiiDte}NmbItem").text
             total = i.find("{http://www.sii.cl/SiiDte}MontoItem").text
 
+            cdg_item = i.find(".//{http://www.sii.cl/SiiDte}CdgItem")
+            codigo = cdg_item.find(
+                "{http://www.sii.cl/SiiDte}VlrCodigo").text if cdg_item is not None and cdg_item.find(
+                "{http://www.sii.cl/SiiDte}VlrCodigo") is not None else "N/A"
+
             qtytext = Cant.text if Cant is not None else str(1)
             ratetext = rate.text if rate is not None else total
 
-            # print (
-            #    "qty = " + qtytext + ", rate = " + ratetext + ", description = " + description + ", total = " + total)
+            #print (  "Codigo= " + Codigo +  "qty = " + qtytext + ", rate = " + ratetext + ", description = " + Description + ", total = " + total)
 
             # "warehouse": "Bodega Generica - T",
 
@@ -141,7 +145,8 @@ class DTE:
                  "item_code": "Item Generico",
                  "project": "Oficina",
                  "cost_center": "Oficina - T",
-                 "Descripcion": Description}
+                 "Descripcion": Description,
+                 "Codigo": codigo  }
             )
 
     def parse_referencias(self):
